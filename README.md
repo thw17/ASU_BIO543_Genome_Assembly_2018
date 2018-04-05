@@ -131,7 +131,7 @@ In these files, each sequencing read is listed in a series of four lines:
 * a comment line (here, the comment lines only contain +)
 * a quality score line (ASCII characters)
 
-The sequence identifier can contain a lot of information (see [Illumina's description for more information](http://support.illumina.com/help/SequencingAnalysisWorkflow/Content/Vault/Informatics/Sequencing_Analysis/CASAVA/swSEQ_mCA_FASTQFiles.htm)), the combination of which will identify individual reads uniquely.  In this example, we don't have records for the instrument or run number, and instead have IDs organized as: flowcellID:lane:tile:x_position:y_position.
+The sequence identifier can contain a lot of information (see [Illumina's description for more information](http://support.illumina.com/content/dam/illumina-support/help/BaseSpaceHelp_v2/Content/Vault/Informatics/Sequencing_Analysis/BS/swSEQ_mBS_FASTQFiles.htm)), the combination of which will identify individual reads uniquely.  In this example, we don't have records for the instrument or run number, and instead have IDs organized as: flowcellID:lane:tile:x_position:y_position.
 
 The sequence line here is 250 bases long and contains the nucleotide sequence corresponding to each read.
 
